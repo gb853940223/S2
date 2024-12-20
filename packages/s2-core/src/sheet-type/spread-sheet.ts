@@ -624,7 +624,9 @@ export abstract class SpreadSheet extends EE {
    * 获取 G Canvas 配置
    * @see https://g.antv.antgroup.com/api/canvas/options
    */
-  public getCanvasConfig(): Partial<CanvasConfig> {
+  public getCanvasConfig(): Partial<
+    CanvasConfig & { supportsCSSTransform?: boolean }
+  > {
     return this.getCanvas().getConfig();
   }
 

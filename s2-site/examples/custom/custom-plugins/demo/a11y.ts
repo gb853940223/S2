@@ -1,5 +1,5 @@
-import { PivotSheet, S2DataConfig, S2Options } from '@antv/s2';
 import { Plugin as PluginA11y } from '@antv/g-plugin-a11y';
+import { PivotSheet, S2DataConfig, S2Options } from '@antv/s2';
 
 // 请确保 AntV/G 版本大于 5.0
 
@@ -65,7 +65,6 @@ fetch(
         );
 
         return {
-          supportsCSSTransform: true,
           devicePixelRatio: 2,
           cursor: 'crosshair',
         };

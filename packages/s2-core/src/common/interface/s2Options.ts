@@ -184,14 +184,20 @@ export interface S2BasicOptions<
       renderer.registerPlugin(new PluginA11y({ enableExtractingText: true }));
 
       return {
-        supportsCSSTransform: true,
+        dblClickSpeed: 200,
       };
     },
    */
   transformCanvasConfig?: (
     renderer: Renderer,
     spreadsheet: SpreadSheet,
-  ) => (Partial<CanvasConfig> | null | undefined) | void;
+  ) =>
+    | (
+        | Partial<CanvasConfig & { supportsCSSTransform?: boolean }>
+        | null
+        | undefined
+      )
+    | void;
 
   /** *********** 自定义单元格 hooks **************** */
   /**

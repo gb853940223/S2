@@ -1,5 +1,5 @@
-import { PivotSheet, S2DataConfig, S2Options } from '@antv/s2';
 import { Plugin as PluginRoughCanvasRenderer } from '@antv/g-plugin-rough-canvas-renderer';
+import { PivotSheet, S2DataConfig, S2Options } from '@antv/s2';
 
 /**
  * 需要注意的是一旦使用该插件，“脏矩形渲染” 便无法使用，这意味着任何图形的任何样式属性改变，都会导致画布的全量重绘, 性能会严重下降。
@@ -62,7 +62,6 @@ fetch(
         );
 
         return {
-          supportsCSSTransform: true,
           devicePixelRatio: 2,
           cursor: 'crosshair',
         };

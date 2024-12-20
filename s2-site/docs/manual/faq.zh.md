@@ -292,7 +292,6 @@ const s2Options = {
 
     // 透传 G 的初始化参数：https://g.antv.antgroup.com/api/canvas/options
     return {
-      supportsCSSTransform: true,
       devicePixelRatio: 2,
       dblClickSpeed: 500,
       cursor: 'crosshair',

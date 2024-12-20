@@ -117,7 +117,6 @@ const s2Options = {
     renderer.registerPlugin(new PluginA11y({ enableExtractingText: true }));
 
     return {
-      supportsCSSTransform: true,
       devicePixelRatio: 2
     };
   },

@@ -33,7 +33,6 @@ export const options: SheetComponentOptions = {
     console.log('当前已注册插件:', renderer.getPlugins(), renderer.getConfig());
 
     return {
-      supportsCSSTransform: true,
       devicePixelRatio: 2,
       cursor: 'crosshair',
     };
