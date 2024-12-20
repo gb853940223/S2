@@ -1,3 +1,11 @@
+# [@antv/s2-react-v2.1.4](https://github.com/antvis/S2/compare/@antv/s2-react-v2.1.3...@antv/s2-react-v2.1.4) (2024-12-20)
+
+
+### Bug Fixes
+
+* 修复明细表自定义列头时, 隐藏列头后出现空白区域 close [#3044](https://github.com/antvis/S2/issues/3044) ([#3046](https://github.com/antvis/S2/issues/3046)) ([7e30008](https://github.com/antvis/S2/commit/7e30008ca4d784c740dccd26a6fa891579d1cb99))
+* 更新 G 到最新版, 修复换行符报错的问题 close [#3040](https://github.com/antvis/S2/issues/3040) ([b86dddf](https://github.com/antvis/S2/commit/b86dddff2bf6941a00e286ed684790af52832f54))
+
 # [@antv/s2-react-v2.1.3](https://github.com/antvis/S2/compare/@antv/s2-react-v2.1.2...@antv/s2-react-v2.1.3) (2024-12-13)
 
 
