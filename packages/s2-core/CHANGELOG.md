@@ -1,3 +1,13 @@
+# [@antv/s2-v2.1.5](https://github.com/antvis/S2/compare/@antv/s2-v2.1.4...@antv/s2-v2.1.5) (2024-12-20)
+
+
+### Bug Fixes
+
+* 修复合并单元格滚动出可视范围后边框绘制错误 close [#3048](https://github.com/antvis/S2/issues/3048) ([#3049](https://github.com/antvis/S2/issues/3049)) ([572ed93](https://github.com/antvis/S2/commit/572ed93cd00f24b050c8714182eae8d142399931))
+* 修复明细表在 dataCfg 为空, 同时开启序号列时, 错误的渲染了占位符的问题 ([#3042](https://github.com/antvis/S2/issues/3042)) ([feab43f](https://github.com/antvis/S2/commit/feab43f9aa8afe7035c46f39ddccb2c31e22b787))
+* 修复明细表自定义列头时, 隐藏列头后出现空白区域 close [#3044](https://github.com/antvis/S2/issues/3044) ([#3046](https://github.com/antvis/S2/issues/3046)) ([7e30008](https://github.com/antvis/S2/commit/7e30008ca4d784c740dccd26a6fa891579d1cb99))
+* 更新 G 到最新版, 修复换行符报错的问题 close [#3040](https://github.com/antvis/S2/issues/3040) ([b86dddf](https://github.com/antvis/S2/commit/b86dddff2bf6941a00e286ed684790af52832f54))
+
 # [@antv/s2-v2.1.4](https://github.com/antvis/S2/compare/@antv/s2-v2.1.3...@antv/s2-v2.1.4) (2024-12-13)
 
 
