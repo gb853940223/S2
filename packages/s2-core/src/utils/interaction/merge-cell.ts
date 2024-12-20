@@ -29,19 +29,19 @@ export const getInvisibleInfo = (
   sheet: SpreadSheet,
 ) => {
   const cells: DataCell[] = [];
-  let viewMeta: ViewMeta | undefined;
+  let viewMeta: ViewMeta | undefined | null;
 
   forEach(invisibleCellInfo, (cellInfo) => {
     const meta = sheet?.facet?.getCellMeta(
       cellInfo.rowIndex!,
       cellInfo.colIndex!,
     );
+    const cell = sheet?.facet?.createDataCell(meta);
 
-    if (meta) {
-      const cell = sheet?.options?.dataCell?.(meta, meta.spreadsheet);
+    if (cell) {
+      cells.push(cell!);
 
       viewMeta = cellInfo?.showText ? meta : viewMeta;
-      cells.push(cell!);
     }
   });
 
@@ -102,7 +102,7 @@ export const getTempMergedCell = (
     cellsInfos,
     allVisibleCells,
   );
-  let viewMeta: ViewMeta | Node | undefined = cellsMeta;
+  let viewMeta: ViewMeta | Node | undefined | null = cellsMeta;
   let mergedAllCells: DataCell[] = cells;
   // some cells are invisible and some cells are visible
   const isPartiallyVisible =
