@@ -59,6 +59,7 @@ body:
       options:
         - label: PivotSheet
         - label: TableSheet
+        - label: PivotChartSheet
         - label: GridAnalysisSheet
         - label: StrategySheet
         - label: EditableSheet
