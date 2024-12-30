@@ -1,3 +1,12 @@
+# [@antv/s2-v2.1.6](https://github.com/antvis/S2/compare/@antv/s2-v2.1.5...@antv/s2-v2.1.6) (2024-12-30)
+
+
+### Bug Fixes
+
+* 使用离屏 Canvas 测量文本, 提高宽度计算的准确性 close [#3018](https://github.com/antvis/S2/issues/3018) ([#3053](https://github.com/antvis/S2/issues/3053)) ([d834e60](https://github.com/antvis/S2/commit/d834e607e317b9425da04e0026b324bfc2099e4a))
+* 修复 Safari 浏览器复制/导出报错 ([#3050](https://github.com/antvis/S2/issues/3050)) ([da7d9e5](https://github.com/antvis/S2/commit/da7d9e5bcb4a125de5cea934f91e6661d9200528))
+* 修复切换到 4k 显示器时渲染模糊的问题 ([#3051](https://github.com/antvis/S2/issues/3051)) ([41a2ad0](https://github.com/antvis/S2/commit/41a2ad0a93443f61f28ec1ed178cc437b12a0dc6))
+
 # [@antv/s2-v2.1.5](https://github.com/antvis/S2/compare/@antv/s2-v2.1.4...@antv/s2-v2.1.5) (2024-12-20)
 
 
