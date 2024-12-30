@@ -1,3 +1,10 @@
+# [@antv/s2-react-v2.1.5](https://github.com/antvis/S2/compare/@antv/s2-react-v2.1.4...@antv/s2-react-v2.1.5) (2024-12-30)
+
+
+### Bug Fixes
+
+* 使用离屏 Canvas 测量文本, 提高宽度计算的准确性 close [#3018](https://github.com/antvis/S2/issues/3018) ([#3053](https://github.com/antvis/S2/issues/3053)) ([d834e60](https://github.com/antvis/S2/commit/d834e607e317b9425da04e0026b324bfc2099e4a))
+
 # [@antv/s2-react-v2.1.4](https://github.com/antvis/S2/compare/@antv/s2-react-v2.1.3...@antv/s2-react-v2.1.4) (2024-12-20)
 
 
