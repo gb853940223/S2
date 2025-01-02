@@ -1,3 +1,11 @@
+# [@antv/s2-v2.1.7](https://github.com/antvis/S2/compare/@antv/s2-v2.1.6...@antv/s2-v2.1.7) (2025-01-02)
+
+
+### Bug Fixes
+
+* **g:** 修复列宽很小时多行文本渲染错误 ([#3060](https://github.com/antvis/S2/issues/3060)) ([aca03ac](https://github.com/antvis/S2/commit/aca03ac87d3c08183d220dd82a219fa2e4491367))
+* 修复存在字段标记时, 紧凑模式下有几率显示省略号的问题 ([#3061](https://github.com/antvis/S2/issues/3061)) ([d200b13](https://github.com/antvis/S2/commit/d200b13ffaced2af37e69739077b4734a516dd95))
+
 # [@antv/s2-v2.1.6](https://github.com/antvis/S2/compare/@antv/s2-v2.1.5...@antv/s2-v2.1.6) (2024-12-30)
 
 
