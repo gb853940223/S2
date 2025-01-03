@@ -98,7 +98,7 @@ import { getAllChildCells } from '../utils/get-all-child-cells';
 import { getColsForGrid, getRowsForGrid } from '../utils/grid';
 import { diffPanelIndexes, type PanelIndexes } from '../utils/indexes';
 import { isMobile, isWindows } from '../utils/is-mobile';
-import { floor } from '../utils/math';
+import { floor, round } from '../utils/math';
 import { CornerBBox } from './bbox/corner-bbox';
 import { PanelBBox } from './bbox/panel-bbox';
 import {
@@ -464,7 +464,9 @@ export abstract class BaseFacet {
     }
 
     // 两者要取最大, 保证高度自动撑高的合理性
-    return Math.max(cornerAdaptiveHeight, colAdaptiveHeight, defaultHeight);
+    return round(
+      Math.max(cornerAdaptiveHeight, colAdaptiveHeight, defaultHeight),
+    );
   }
 
   protected getDefaultColNodeHeight(
@@ -489,7 +491,7 @@ export abstract class BaseFacet {
       this.getCellCustomSize(colNode, colCell?.height) ??
       0;
 
-    return Math.max(defaultHeight, sampleMaxHeight);
+    return round(Math.max(defaultHeight, sampleMaxHeight));
   }
 
   protected getNodeAdaptiveHeight(options: {
@@ -761,9 +763,11 @@ export abstract class BaseFacet {
   public getSeriesNumberWidth(): number {
     const { seriesNumber } = this.spreadsheet.options;
 
-    return seriesNumber?.enable
-      ? this.spreadsheet.theme.rowCell?.seriesNumberWidth ?? 0
-      : 0;
+    return round(
+      seriesNumber?.enable
+        ? this.spreadsheet.theme.rowCell?.seriesNumberWidth ?? 0
+        : 0,
+    );
   }
 
   public getCanvasSize() {
