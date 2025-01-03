@@ -1,3 +1,12 @@
+# [@antv/s2-v2.1.8](https://github.com/antvis/S2/compare/@antv/s2-v2.1.7...@antv/s2-v2.1.8) (2025-01-03)
+
+
+### Bug Fixes
+
+* 修复单元格宽度为浮点数时单元格之间有几率出现多余空隙的问题 close [#3014](https://github.com/antvis/S2/issues/3014) ([#3066](https://github.com/antvis/S2/issues/3066)) ([6c1f74a](https://github.com/antvis/S2/commit/6c1f74a7c34cacd8b208cee1d8240f83a3be969d))
+* 修复自定义选中交互主题对行列叶子节点不生效 ([#3064](https://github.com/antvis/S2/issues/3064)) ([0c6c383](https://github.com/antvis/S2/commit/0c6c3832a2db87b9a353cb62f5a4698fcfa8532b))
+* 修复表头存在自定义 icon 时, 文本换行高度自适应不准确 ([#3065](https://github.com/antvis/S2/issues/3065)) ([e2ab646](https://github.com/antvis/S2/commit/e2ab6461b98cc3f9308edb20d960846e49f10a13))
+
 # [@antv/s2-v2.1.7](https://github.com/antvis/S2/compare/@antv/s2-v2.1.6...@antv/s2-v2.1.7) (2025-01-02)
 
 
