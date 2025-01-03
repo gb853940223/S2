@@ -1,3 +1,10 @@
+# [@antv/s2-react-v2.1.6](https://github.com/antvis/S2/compare/@antv/s2-react-v2.1.5...@antv/s2-react-v2.1.6) (2025-01-03)
+
+
+### Bug Fixes
+
+* 修复表头存在自定义 icon 时, 文本换行高度自适应不准确 ([#3065](https://github.com/antvis/S2/issues/3065)) ([e2ab646](https://github.com/antvis/S2/commit/e2ab6461b98cc3f9308edb20d960846e49f10a13))
+
 # [@antv/s2-react-v2.1.5](https://github.com/antvis/S2/compare/@antv/s2-react-v2.1.4...@antv/s2-react-v2.1.5) (2024-12-30)
 
 
