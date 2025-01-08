@@ -152,7 +152,7 @@ export function drawDottedLines(s2: SpreadSheet) {
 									'lineJoin': 'round',
 									'zIndex': 9999
 								}
-							}) as any
+							})
 						);
 
 						dottedTreeLines.push(dottedLine);
@@ -179,12 +179,16 @@ fetch(
     };
 
     const s2 = new PivotSheet(container, dataCfg, s2Options);
+
     s2.on(S2Event.LAYOUT_AFTER_RENDER, () => {
       drawDottedLines(s2);
-    })
+    });
     s2.on(S2Event.GLOBAL_SCROLL, () => {
       drawDottedLines(s2);
-    })
+    });
+    s2.on(S2Event.LAYOUT_DESTROY, () => {
+      destroyDottedLines(dottedTreeLines);
+    });
 
     await s2.render();
   });

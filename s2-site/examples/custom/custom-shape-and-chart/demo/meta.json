@@ -59,12 +59,12 @@
       "new": true
     },
     {
-      "filename": "pivot-chart-polyline.ts",
+      "filename": "pivot-tree-line.ts",
       "title": {
-        "zh": "透视组合图 - PolyLine",
-        "en": "PivotChart Polar PloyLine"
+        "zh": "树状模式连接线",
+        "en": "Tree Mode Connection Line"
       },
-      "screenshot": "",
+      "screenshot": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*9bLeS5TWnk0AAAAAAAAAAAAADmJ7AQ/original",
       "new": true
     }
   ]
