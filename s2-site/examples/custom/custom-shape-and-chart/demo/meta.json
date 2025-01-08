@@ -40,7 +40,6 @@
       "screenshot": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*XEBxSZXyip4AAAAAAAAAAAAADmJ7AQ/original",
       "new": true
     },
-
     {
       "filename": "pivot-chart-spec.ts",
       "title": {
@@ -50,7 +49,6 @@
       "screenshot": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*Y6uQRYoYSdcAAAAAAAAAAAAADmJ7AQ/original",
       "new": true
     },
-
     {
       "filename": "pivot-chart-cell.ts",
       "title": {
@@ -58,6 +56,15 @@
         "en": "PivotChart Polar Custom Cell"
       },
       "screenshot": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*V-TMTaDYzxcAAAAAAAAAAAAADmJ7AQ/original",
+      "new": true
+    },
+    {
+      "filename": "pivot-chart-polyline.ts",
+      "title": {
+        "zh": "透视组合图 - PolyLine",
+        "en": "PivotChart Polar PloyLine"
+      },
+      "screenshot": "",
       "new": true
     }
   ]
